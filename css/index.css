@@ -1,0 +1,66 @@
+#logo a {
+	margin-top: 20px;
+    margin-left: 20px;
+	float: left;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 26px;
+	text-shadow: 0 1px 0 white;
+	color:rgb(63, 63, 102);
+}
+nav {
+width: 960px;
+margin: 0 auto;
+}
+
+nav:before {
+content:'';
+display:block;
+height:50px;
+width:100%;
+background: rgb(170, 167, 167);
+position: absolute;
+left: 0;
+z-index: -1;
+}
+ul {
+margin:0;
+padding: 0;
+list-style: none;
+height: 50px;
+}
+
+ul li {
+ float: left;
+ }
+
+ ul li a{
+ color: rgb(63, 63, 102);
+ display: block;
+ height: 50px;
+ padding: 0 30px;
+ text-transform: uppercase;
+ text-decoration:none;
+ line-height: 50px;
+ }
+ ul li a:hover {
+  background: blue;
+  }
+  .services {
+
+  }
+
+.services_item{
+    width: 530px;
+    float: left;
+    text-align:center
+}
+.services_item h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+
+
+}
+.services_item p{
+font-size: 14px;
+}
